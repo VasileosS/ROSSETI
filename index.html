@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="image/faviIcon.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/media.css" />
+    <title>ROSSETI</title>
+  </head>
+  <body>
+    <header class="nav-wrapper">
+      <nav>
+        <img src="image/Logotype.svg" alt="логотип" />
+        <ul>
+          <li class="active" id="nav"><a href="#!">Главная</a></li>
+          <li id="nav"><a href="#!">О компании</a></li>
+          <li id="nav"><a href="#!">НОВОСТИ</a></li>
+          <li id="nav"><a href="#!">ОТКЛЮЧЕНИЯ</a></li>
+          <li id="nav"><a href="#!">Инвесторам</a></li>
+          <li id="nav"><a href="#!">Пресс–центр</a></li>
+        </ul>
+        <div class="nav-phone phone">
+          <a href="tel:+7 (8793) 40-77-13">+7 (8793) 40-77-13</a>
+          <span>с 08:00 до 20:00</span>
+        </div>
+        <div class="nav-burger">
+          <div class="nav-burger_bg" id="bg" onclick="burger()"></div>
+          <img src="image/burger/open.svg" alt="burger" id="open" />
+          <div class="nav-burger-content" onclick="">
+            <img src="image/burger/close.svg" alt="close" id="close" />
+            <ul class="nav-burger_links">
+              <li><a href="#!">Главная</a></li>
+              <li><a href="#!">О компании</a></li>
+              <li><a href="#!">НОВОСТИ</a></li>
+              <li><a href="#!">ОТКЛЮЧЕНИЯ</a></li>
+              <li><a href="#!">Инвесторам</a></li>
+              <li><a href="#!">Пресс–центр</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="header container">
+      <div></div>
+      <div class="header-info">
+        <h1>Цифровой расчетный центр</h1>
+        <p>Обеспечиваем бесперебойную поставку электроэнергии более 25 лет.</p>
+      </div>
+      <div class="header-numbers">
+        <div class="header-numbers_block">
+          <div class="header-numbers_number">
+            <span>2</span><span>3</span><span>5</span><span>0</span
+            ><span>0</span><span>0</span><span>0</span>
+          </div>
+          <p>Линий электропередач в км</p>
+        </div>
+        <div class="header-numbers_block">
+          <div class="header-numbers_number">
+            <span>5</span><span>0</span><span>7</span><span>0</span
+            ><span>0</span><span>0</span>
+          </div>
+          <p>Подстанций</p>
+        </div>
+      </div>
+      <form onsubmit="return false">
+        <h2>Вход в расчетный центр</h2>
+        <p>
+          Войдите или зарегистрируйтесь, чтобы получить доступ к услугам центра.
+        </p>
+        <a href="#!" class="header-form_auth">Войти</a>
+        <a href="#!" class="header-form_reg">Зарегистрироваться</a>
+      </form>
+    </section>
+
+    <!-- main -->
+    <main class="container">
+      <div class="main__container">
+        <div class="main_viev-all">
+          <h3>Новости</h3>
+          <a href="#!">Посмотреть все</a>
+        </div>
+        <div class="main-cards">
+          <!-- карточка 1 -->
+          <div class="main-card" id="card_1">
+            <div class="main-card_header">
+              <div class="main-card_date">
+                <p>17</p>
+                <div>
+                  <span>АВГУСТА</span>
+                  <span>2019</span>
+                </div>
+              </div>
+              <span>~ на 5 дней</span>
+            </div>
+            <div class="main-card_footer">
+              <span>Тех. работы</span>
+              <p>Ново–Савиновский район. г. Казань</p>
+              <a href="#!">Подробнее</a>
+            </div>
+          </div>
+          <!-- карточка 2 -->
+          <div class="main-card" id="card_2">
+            <div class="main-card_header">
+              <div class="main-card_date">
+                <p>11</p>
+                <div>
+                  <span>АВГУСТА</span>
+                  <span>2019</span>
+                </div>
+              </div>
+            </div>
+            <div class="main-card_footer">
+              <p class="main-card_content">
+                Новость о прокладке проводов по всему региону – Кавказ
+              </p>
+              <a href="#!">Подробнее</a>
+            </div>
+          </div>
+          <!-- карточка 3 -->
+          <div class="main-card" id="card_3">
+            <div class="main-card_header">
+              <div class="main-card_date">
+                <p>31</p>
+                <div>
+                  <span>ИЮЛЯ</span>
+                  <span>2019</span>
+                </div>
+              </div>
+            </div>
+            <div class="main-card_footer">
+              <p class="main-card_content">Завершился процесс бетонирования</p>
+              <a href="#!">Подробнее</a>
+            </div>
+          </div>
+          <!-- карточка 4 -->
+          <div class="main-card" id="card_4">
+            <div class="main-card_header">
+              <div class="main-card_date">
+                <p>03</p>
+                <div>
+                  <span>АВГУСТА</span>
+                  <span>2019</span>
+                </div>
+              </div>
+            </div>
+            <div class="main-card_footer">
+              <p class="main-card_content">
+                Запущены станции построенные вчера
+              </p>
+              <a href="#!">Подробнее</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Блок "Мобиьлное приложение" -->
+    <section class="mobile">
+      <div class="mobile-images">
+        <img src="image/app/app1.png" alt="mobile app" />
+        <img src="image/app/app2.png" alt="mobile app" />
+        <img src="image/app/app3.png" alt="mobile app" id="app3" />
+        <img src="image/app/app4.png" alt="mobile app" />
+        <img src="image/app/app5.png" alt="mobile app" />
+      </div>
+      <div class="mobile-text">
+        <h4>Мобильное приложение</h4>
+        <p>
+          Весь функционал сайта в мобильном приложении: подача показаний в 1
+          клик, платежи с прикреплением карт, историей и квитанциями, плановые
+          отключения и новости.
+        </p>
+        <span> Это абсолютно бесплатно!</span>
+        <div class="mobile-text_dowload">
+          <a href="#!">
+            <img src="image/app/mobile/appStore.svg" alt="appStore" />
+          </a>
+          <a href="#!"
+            ><img src="image/app/mobile/googlePlay.svg" alt="googlePlay" />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <div class="faq container">
+      <h4>Часто задаваемые вопросы</h4>
+      <div class="faq-item">
+        <a>Как подавать показания?</a>
+        <div class="faq-item_content">
+          <p>
+            Для оплаты задолженности нужно зайти в личный кабинет или установить
+            мобильное приложение. Свои долги можно увидеть во вкладках лицевой
+            счет и платежи.
+          </p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <a>Как оплатить задолженность?</a>
+        <div class="faq-item_content">
+          <p>
+            Для оплаты задолженности нужно зайти в личный кабинет или установить
+            мобильное приложение. Свои долги можно увидеть во вкладках лицевой
+            счет и платежи.
+          </p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <a>Получу ли я квитанцию об оплате?</a>
+        <div class="faq-item_content">
+          <p>
+            Для оплаты задолженности нужно зайти в личный кабинет или установить
+            мобильное приложение. Свои долги можно увидеть во вкладках лицевой
+            счет и платежи.
+          </p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <a>Как быстро зачисляется платеж?</a>
+        <div class="faq-item_content">
+          <p>
+            Для оплаты задолженности нужно зайти в личный кабинет или установить
+            мобильное приложение. Свои долги можно увидеть во вкладках лицевой
+            счет и платежи.
+          </p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <a>Где посмотреть плановые отключения?</a>
+        <div class="faq-item_content">
+          <p>
+            Для оплаты задолженности нужно зайти в личный кабинет или установить
+            мобильное приложение. Свои долги можно увидеть во вкладках лицевой
+            счет и платежи.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Карта -->
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22938.869447942267!2d43.05521372838384!3d44.055301599463796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40577636ec6dd5db%3A0x1360e215f4b2e382!2z0J_QkNCeICLQoNC-0YHRgdC10YLQuCDQodC10LLQtdGA0L3Ri9C5INCa0LDQstC60LDQtyI!5e0!3m2!1sru!2sru!4v1698571591373!5m2!1sru!2sru"
+      width="100%"
+      height="607"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+
+    <!-- Footer -->
+    <footer class="container">
+      <div class="footer-left">
+        <img src="image/Logotype.svg" alt="Logotype" />
+        <span>&copy;2019</span>
+        <div class="footer_paragraphs">
+          <p>
+            Фактический адрес: 357506, Ставропольский край, г. Пятигорск, ул.
+            Подстанционная, д. 13, к. А, Кабинет 304
+          </p>
+          <p>
+            Электронная почта: ukt-sk1@yandex.ru Телефон: +7 (8793) 40-77-13
+          </p>
+        </div>
+      </div>
+      <div class="footer-nav">
+        <ul>
+          <li><a href="#!">Главная</a></li>
+          <li><a href="#!">О компании</a></li>
+          <li><a href="#!">НОВОСТИ и ОТКЛЮЧЕНИЯ</a></li>
+          <li><a href="#!">Инвесторам</a></li>
+          <li><a href="#!">Пресс–центр</a></li>
+          <li><a href="#!">Войти</a></li>
+        </ul>
+      </div>
+      <div class="footer-support">
+        <div class="phone">
+          <a href="tel:+7 (8793) 40-77-13">+7 (8793) 40-77-13</a>
+        </div>
+        <a href="#!">Написать в поддержку</a>
+        <span>К оплате принимаем</span>
+        <ul>
+          <li><img src="image/footer/mc.svg" alt="mastecard" /></li>
+          <li><img src="image/footer/UnionPay.svg" alt="UnionPay" /></li>
+          <li><img src="image/footer/mir.svg" alt="mir" /></li>
+          <li><img src="image/footer/visa.svg" alt="visa" /></li>
+        </ul>
+      </div>
+      <div class="footer-right">
+        <a href="#!">Политика конфиденциальности</a>
+        <a href="#!">Пользовательское соглашение</a>
+        <div class="footer_paragraphs">
+          <p>Реквизиты: ООО “Юрэнергоконсалт” ИНН 2632097463 / КПП 263201001</p>
+          <p>
+            Юридический адрес: 357506, Ставропольский край, г. Пятигорск, ул.
+            Подстанционная, д. 13, к. А, Кабинет 304
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script src="js/app.js"></script>
+  </body>
+</html>

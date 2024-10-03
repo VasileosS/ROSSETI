@@ -1,0 +1,17 @@
+<svg width="36" height="11" viewBox="0 0 36 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="mir-logo-h14px" clip-path="url(#clip0_105_2)">
+<path id="path10" fill-rule="evenodd" clip-rule="evenodd" d="M31.9592 0H25.1265C25.4939 2.27755 27.698 4.40816 30.1224 4.40816H35.5592C35.6326 4.18776 35.6326 3.89388 35.6326 3.67347C35.6326 1.61633 34.0163 0 31.9592 0Z" fill="url(#paint0_linear_105_2)"/>
+<path id="path12" fill-rule="evenodd" clip-rule="evenodd" d="M25.7143 4.77539V10.2856H29.0204V7.34682H31.9592C33.5755 7.34682 34.9714 6.24478 35.4123 4.77539H25.7143Z" fill="#4DB45F"/>
+<path id="path14" fill-rule="evenodd" clip-rule="evenodd" d="M13.9592 0V10.2857H16.898C16.898 10.2857 17.6327 10.2857 18 9.55102C19.9837 5.58367 20.5715 4.40816 20.5715 4.40816H20.9388V10.2857H24.2449V0H21.3062C21.3062 0 20.5715 0.0734694 20.2041 0.734694C18.5143 4.11429 17.6327 5.87755 17.6327 5.87755H17.2654V0H13.9592Z" fill="#4DB45F"/>
+<path id="path16" fill-rule="evenodd" clip-rule="evenodd" d="M0 10.2857V0H3.30612C3.30612 0 4.26122 0 4.77551 1.46939C6.09796 5.36327 6.2449 5.87755 6.2449 5.87755C6.2449 5.87755 6.53878 4.92245 7.71429 1.46939C8.22857 0 9.18367 0 9.18367 0H12.4898V10.2857H9.18367V4.77551H8.81633L6.97959 10.2857H5.5102L3.67347 4.77551H3.30612V10.2857H0Z" fill="#4DB45F"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_105_2" x1="25.1076" y1="2.20408" x2="35.6326" y2="2.20408" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00B4E6"/>
+<stop offset="1" stop-color="#088CCB"/>
+</linearGradient>
+<clipPath id="clip0_105_2">
+<rect width="36" height="10.2857" fill="white"/>
+</clipPath>
+</defs>
+</svg>
